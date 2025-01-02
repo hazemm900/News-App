@@ -1,3 +1,7 @@
 {
-  "dsadas": "dasdsa"
+  "business": "business",
+  "sports": "sports",
+  "science": "science",
+  "news" : "news",
+  "articles" : "articles"
 }

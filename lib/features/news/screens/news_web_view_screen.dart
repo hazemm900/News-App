@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:news_app/core/base_widgets/custom_app_bar.dart';
@@ -51,8 +52,8 @@ class _NewsWebViewScreenState extends State<NewsWebViewScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomAppBar(
-        appBarTitle: 'Articles',
+      appBar:  CustomAppBar(
+        appBarTitle: 'articles'.tr(),
       ),
       body: Stack(
         children: [

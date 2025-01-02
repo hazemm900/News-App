@@ -5,7 +5,7 @@ import 'color.dart';
 ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,
   appBarTheme: const AppBarTheme(
-      color: MyColors.myRed,
+      color: MyColors.myBlack,
       iconTheme: IconThemeData(color: Colors.white),
       centerTitle: true,
       titleTextStyle: TextStyle(
@@ -13,9 +13,9 @@ ThemeData lightTheme = ThemeData(
 
 
   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-      backgroundColor: MyColors.myRed,
-      selectedItemColor: MyColors.myWhite,
-      unselectedItemColor: MyColors.myGrey),
+      backgroundColor: MyColors.myBlack,
+      selectedItemColor: MyColors.myRed,
+      unselectedItemColor: MyColors.myWhite),
   textTheme: TextTheme(
     bodyLarge: const TextStyle(
         fontSize: 20, fontWeight: FontWeight.w700, color: Colors.black),
@@ -36,15 +36,15 @@ ThemeData darkTheme = ThemeData(
   brightness: Brightness.dark,
   scaffoldBackgroundColor: Colors.black,
   appBarTheme: const AppBarTheme(
-      color: MyColors.myRed,
+      color: MyColors.myBlack,
       iconTheme: IconThemeData(color: Colors.white),
       centerTitle: true,
       titleTextStyle: TextStyle(
           color: Colors.white, fontWeight: FontWeight.w700, fontSize: 16)),
   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-      backgroundColor: MyColors.myRed,
-      selectedItemColor: MyColors.myWhite,
-      unselectedItemColor: MyColors.myLightGrey),
+      backgroundColor: MyColors.myBlack,
+      selectedItemColor: MyColors.myRed,
+      unselectedItemColor: MyColors.myWhite),
   textTheme: TextTheme(
     bodyLarge: const TextStyle(
         fontSize: 20, fontWeight: FontWeight.w700, color: Colors.white),

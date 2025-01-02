@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/core/helper/change_lang.dart';
 import 'package:news_app/core/theme/color.dart';
@@ -18,14 +19,14 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
             TextSpan(
               text: appBarTitle,
               style: const TextStyle(
-                color: MyColors.myBlack, // Red for "FLY"
+                color: MyColors.myRed, // Red for "FLY"
                 fontWeight: FontWeight.bold,
                 fontSize: 20, // Adjust font size as needed
               ),
             ),
-            const TextSpan(
-              text: "news",
-              style: TextStyle(
+             TextSpan(
+              text: "news".tr(),
+              style: const TextStyle(
                 color: Colors.white, // White for "news"
                 fontWeight: FontWeight.bold,
                 fontSize: 20, // Match size for consistency

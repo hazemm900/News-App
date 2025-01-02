@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/core/base_widgets/custom_app_bar.dart';
@@ -20,7 +21,7 @@ class ScienceNewsScreen extends StatelessWidget {
           var cubit = NewsCubit.get(context);
           return  Scaffold(
             appBar: CustomAppBar(
-              appBarTitle: 'Science',
+              appBarTitle: 'science'.tr(),
             ),
             body: SingleChildScrollView(
               child: Column(

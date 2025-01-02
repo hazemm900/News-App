@@ -24,18 +24,18 @@ class CustomBottomNavBar extends StatelessWidget {
                 onTap: (value) {
                   cubit.changeCurrentIndex(value);
                 },
-                items: const [
+                items:  [
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.newspaper_outlined),
-                      label: 'Business'),
+                      icon: const Icon(Icons.newspaper_outlined),
+                      label: 'business'.tr()),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.sports_outlined),
-                      label: 'Sports'),
+                      icon: const Icon(Icons.sports_outlined),
+                      label: 'sports'.tr()),
                   BottomNavigationBarItem(
-                      icon: Icon(
+                      icon: const Icon(
                         Icons.science_outlined,
                       ),
-                      label: 'science'),
+                      label: 'science'.tr()),
                 ]),
             body: cubit.screens[cubit.currentIndex],
           );
